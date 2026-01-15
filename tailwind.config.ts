@@ -9,14 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: {
-          900: "#0f172a", // Azul Profundo
-          800: "#1e293b",
-        },
-        gold: {
-          400: "#d4af37", // Dourado Clássico
-          500: "#b4941f",
-        },
+        navy: { 900: "#0f172a", 800: "#1e293b" },
+        gold: { 400: "#d4af37", 500: "#b4941f" },
       },
       fontFamily: {
         sans: ['var(--font-inter)'],
