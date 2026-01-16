@@ -1,5 +1,6 @@
 import React from 'react';
-import HeroCarousel from '@/components/HeroCarousel';
+// MUDANÇA AQUI: Usando ./ para procurar a pasta dentro de 'app'
+import HeroCarousel from './components/HeroCarousel';
 import { Scale, Users, Calculator, ArrowRight, ShieldCheck, Gavel } from 'lucide-react';
 
 export default function Home() {
